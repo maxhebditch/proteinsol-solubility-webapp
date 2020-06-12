@@ -1,0 +1,38 @@
+#example-sequence {
+	width:100%;
+	word-wrap:break-word;
+	overflow:hidden;
+}
+
+#fastaInputBox {
+        width: 100%;
+        height: 20em;
+        padding: 1em;
+}
+
+code {
+        font-family:Courier;
+}
+
+
+/* MENU BAR STUFF */
+
+@media screen and (max-width : 800px){
+	#example-sequence {
+	width:81vw;
+	word-wrap:break-word;
+	overflow:hidden;
+	}
+
+	#fastaInputBox {
+		width: 78vw;
+		height: 20em;
+		padding: 1em;
+	}
+	#submitseqlayout {
+	text-align:center;
+	}
+	#sequence-button {
+	margin:auto;
+	}
+}

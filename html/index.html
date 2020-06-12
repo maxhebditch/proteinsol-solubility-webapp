@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="shortcut icon" href="/css/resources/favicon.ico" type="image/x-icon" />
+<link rel="icon" type="image/png" href="/css/resources/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="/css/resources/favicon-16x16.png" sizes="16x16" />
+<link type="text/css" rel="stylesheet" href="/css/stylesheet.css"/>
+<link type="text/css" rel="stylesheet" href="/css/sequence_home.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+	<meta name="description" content="The protein-sol sequence solubility algorithm">
+<title>Protein-sol sequence solubility</title>
+</head>
+<body>
+        <div id="headerbar"> 
+                <a class="headerlogo" href="/">protein-sol</a>
+                <a class="manunilogo" href="http://www.manchester.ac.uk">UoM</a>
+                <a class="bioprologo" href="http://www.biopronetuk.org">BioProNET</a>
+        </div>
+        <div id="content">
+        <h2>Sequence Prediction</h2>
+        <br>
+        <p>The protein-sol software will take a single amino acid sequence and return the result of a set of solubility prediction calculations, compared to a solubility database.</p><br>
+        <p>Please enter a single sequence of single letter amino acid codes in the FASTA format.</p>
+        <br>
+        <p>For example</p>
+        <div id="example-sequence" >
+        <code>&gt; P00547<br>MVKVYAPASSANMSVGFDVLGAAVTPVDGALLGDVVTVEAAETFSLNNLGRFADKLPSEPRENIVYQCWERFCQELGKQIPVAMTLEKNMPIGSGLGSSACSVVAALMAMNEHCGKPLNDTRLLALMGELEGRISGSIHYDNVAPCFLGGMQLMIEENDIISQQVPGFDEWLWVLAYPGIKVSTAEARAILPAQYRRQDCIAHGRHLAGFIHACYSRQPELAAKLMKDVIAEPYRERLLPGFRQARQAVAEIGAVASGISGSGPTLFALCDKPETAQRVADWLGKNYLQNQEGFVHICRLDTAGARVLEN</code>
+        <div id="sequence-box">
+        <form method="post" action="/code/sequenceprediction.php">
+                <label>
+                <br>
+                <h5>Submit protein sequence</h5>
+                <br>
+        <textarea name="sequence-input" wrap="soft" id="fastaInputBox"></textarea>
+        </label>
+        </div>
+        <br>
+	<div id="submitseqlayout">
+        <input type="submit" id="sequence-button" name="singleprediction" />
+        </form>
+        <br>
+        <br>
+    <h5>Citation</h5>
+    <span style="line-height:1.5em">
+        <p>Hebditch M, Carballo-Amador M.A., Charonis S, Curtis R, Warwicker J<br>
+        <a href="https://doi.org/10.1093/bioinformatics/btx345">
+        Protein-Sol: a web tool for predicting protein solubility from sequence.</a><br>
+Bioinformatics (2017)</p></span>
+    </span>
+    <br>
+	</div>
+</div>
+</body>
+</html>
+

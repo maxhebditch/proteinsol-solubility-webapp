@@ -1,0 +1,2 @@
+matplotlib==2.2.2
+tidyfasta==1.0.5
