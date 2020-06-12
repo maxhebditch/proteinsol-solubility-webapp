@@ -1,4 +1,7 @@
 FROM php:7-apache
+
+MAINTAINER max@maxhebditch.co.uk
+
 COPY ./html/ /var/www/html/
 ADD ./code /var/www/html/code/
 ADD ./html/css /var/www/html/css/
